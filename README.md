@@ -78,7 +78,7 @@ A comprehensive security camera management system with interactive mapping, real
 ### Setup
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/coff33ninja/cam_control
    cd Camera_Inventory_Manager
    ```
 
