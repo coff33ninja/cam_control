@@ -1,0 +1,9 @@
+aiosqlite
+pandas
+gradio
+ping3
+folium
+pytest
+pytest-asyncio
+timezonefinder
+geopy
