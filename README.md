@@ -2,6 +2,8 @@
 
 A comprehensive security camera management system with interactive mapping, real-time monitoring, and advanced visualization capabilities.
 
+> **⚠️ DEVELOPMENT STATUS**: This is an initial implementation and proof of concept. Not all features have been thoroughly tested and some functionality may be incomplete or require additional setup. Use for development and testing purposes.
+
 ## 🚀 Features
 
 ### 📹 Camera Management
@@ -205,12 +207,41 @@ For support and questions:
 - Run the test scripts in `test_scripts/` to validate your setup
 - Review the error logs for troubleshooting information
 
+## � VDevelopment Status
+
+### ✅ **Implemented Features:**
+- Basic camera and DVR management (CRUD operations)
+- Interactive map with Folium integration
+- Database schema and migrations
+- Location detection and geocoding
+- Coverage area calculations
+- Drag-and-drop JavaScript framework (initial implementation)
+- Comprehensive test suite structure
+
+### ⚠️ **In Development / Needs Testing:**
+- **Drag-and-drop functionality**: JavaScript implementation exists but requires thorough testing
+- **Real-time coordinate updates**: Backend integration for drag operations
+- **RTSP streaming**: Camera viewer implementation needs validation
+- **Connectivity monitoring**: Real-time status updates
+- **Configuration management**: Save/load functionality
+
+### 🔧 **Known Issues:**
+- Some JavaScript drag functionality may not work consistently across all browsers
+- RTSP proxy server needs additional configuration
+- Error handling could be more robust in some areas
+- Performance optimization needed for large numbers of cameras
+
+### 📋 **TODO:**
+- Complete drag-and-drop backend integration
+- Implement real-time WebSocket updates
+- Add comprehensive error handling
+- Performance testing with large datasets
+- Cross-browser compatibility testing
+- Documentation improvements
+
 ## 🔄 Version History
 
-- **v1.0.0**: Initial release with basic camera management
-- **v2.0.0**: Added interactive mapping and drag-and-drop functionality
-- **v3.0.0**: Integrated DVR management and location services
-- **v4.0.0**: Added RTSP viewing and comprehensive testing suite
+- **v0.1.0**: Initial implementation with core features and proof of concept
 
 ## 🙏 Acknowledgments
 
